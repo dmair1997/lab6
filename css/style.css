@@ -1,0 +1,69 @@
+/* Desmond Mair */
+/* stylesheet */
+/* Lab 6 */
+
+#main-navbar {
+	background-color: blue;
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+}
+
+#navbar-container {
+	float: left;
+	position: relative;
+	display: block;
+	left: 50%;
+}
+
+#navbar-container ul {
+	float: left;
+	position: relative;
+	padding: 0;
+	margin: 0;
+	display: block;
+	right: 50%;
+	list-style-type: none;
+}
+
+#navbar-container li {
+	float: left;
+}
+
+#navbar-container li a {
+	text-decoration: none;
+	padding: 10px 20px;
+	display: block;
+	color: #fff;
+}
+
+#onpage {
+	text-decoration: underline overline;
+	color: #fff;
+}
+
+#sidebar {
+	background-color: red;
+	position: fixed;
+	width: 20%;
+	height: 100%;
+	right: 0%;
+}
+
+#sidebar-container {
+	padding: 15px 0;
+	display: block;
+	text-align: center;
+}
+
+#sidebar-container ul {
+	padding: 0;
+	list-style-type: none;
+}
+
+#sidebar-container li a {
+	text-decoration: none;
+	padding: 15px 0;
+	display: block;
+	color: #fff;
+}
